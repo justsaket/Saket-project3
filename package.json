@@ -1,6 +1,6 @@
 {
   "name": "animated-palace-clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "node scripts/fetch-source.mjs && next dev",
@@ -14,5 +14,15 @@
     "next": "16.3.4",
     "react": "19.2.8",
     "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5"
   }
 }
